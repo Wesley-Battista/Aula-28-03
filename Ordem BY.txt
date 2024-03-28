@@ -1,0 +1,7 @@
+SELECT * FROM Alunos ORDER BY Estado;
+
+SELECT * FROM Alunos ORDER BY PessoaID;
+
+SELECT * FROM Alunos ORDER BY Nome;
+
+SELECT * FROM Alunos ORDER BY Idade;
