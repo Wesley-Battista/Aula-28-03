@@ -1,0 +1,23 @@
+UPDATE Alunos
+SET Estado = 'SP', Cidade = 'Pacaembu'
+WHERE PessoaID IN (9, 16, 17, 23, 32, 28);
+
+UPDATE Alunos
+SET Estado = 'RJ', Cidade = 'Angra dos Reis'
+WHERE PessoaID IN (4, 10, 15, 21, 19);
+
+UPDATE Alunos
+SET Estado = 'MG', Cidade = 'Ouro Preto'
+WHERE PessoaID IN (2, 8, 14, 26, 22, 30);
+
+UPDATE Alunos
+SET Estado = 'SC', Cidade = 'Brusque'
+WHERE PessoaID IN (3, 11, 18, 29, 24, 34);
+
+UPDATE Alunos
+SET Estado = 'PR', Cidade = 'Foz do Iguaçu'
+WHERE PessoaID IN (1, 7, 20, 33, 25, 31);
+
+UPDATE Alunos
+SET Estado = 'TO', Cidade = 'Ananás'
+WHERE PessoaID IN (5, 6, 12, 13, 27);
