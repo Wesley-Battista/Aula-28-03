@@ -1,0 +1,30 @@
+CREATE TABLE musicas (
+
+id int,
+    musica varchar (255),
+    artista varchar (255),
+    idioma varchar (255),
+    duração time
+);
+
+INSERT INTO musicas (id, musica, artista, idioma, duração) VALUES
+(1, 'Fogo de Palha', 'Nesk Only', 'pt-br', 2 ),
+(2, 'Maranata', 'Nesk Only e Fábio Casagrande', 'pt-br', 2),
+(3, 'Rei Davi', '2metro', 'pt-br', 3 ),
+(4, 'Chuva de Deus', '2metro', 'pt-br', 4 ),
+(5, 'Efésios 6', '2metro', 'pt-br', 3 ),
+(6, 'Eis-me aqui', 'Valesca Mayssa e Todah Music', 'pt-br', 8 ),
+(7, 'Colossenses 1', 'Projeto Sola', 'pt-br', 4 ),
+(8, 'Bom Samaritano', 'Nesk Only', 'pt-br', 2 ),
+(9, 'Isaías 53', 'Projeto Sola', 'pt-br', 4 ),
+(10, 'Colossenses e suas linhas de amor', 'fhop music e Marco Telles', 'pt-br', 8  ),
+(11, 'Desenvolvendo Amor', 'Morada', 'pt-br', 4 ),
+(12, 'Dono da minha fé', 'Victin', 'pt-br', 3 ),
+(13, 'Único', 'Fhop music', 'pt-br', 7 ),
+(14, 'Eu vou construir', 'Juliano Son', 'pt-br', 8  ),
+(15, 'Act A Fool', 'Ludacris', 'en', 5 ),
+(16, 'Go Hard or Go home', 'Wiz Khalifa e Iggy Azalea', 'en', 4 ),
+(17, 'We Own It', '2 Chainz e Wiz Khalifa', 'en', 4 ),
+(18, 'Feel The Love', 'Kids See Ghosts e Pusha T', 'en', 3 ),
+(19, 'Blanco', 'Pitbull e Pharrell Williams', 'en', 3 ),
+(20, 'Speakerbox', 'Bassnectar e Lafa Taylor', 'en', 5 )
